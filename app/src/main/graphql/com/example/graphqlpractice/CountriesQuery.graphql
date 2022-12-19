@@ -1,0 +1,9 @@
+query CountriesList {
+    countries {
+        name,
+        continent{
+            name
+        },
+        capital
+    }
+}
